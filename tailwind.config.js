@@ -9,14 +9,16 @@ module.exports = {
 
       'md': {'min': '640px'},
       // => @media (min-width: 640px) { ... }
-  
-    },
+
+      
+      },
     extend: {
       
       backgroundColor: {
         'Primary-1': '#181824',
         'Primary-2': '#7562E0',
         'Bakground-Grey': '#F6F6F9',
+        'Background-1': '#1a1919',
       },
       colors: {
         'headings': '#6C1BF0',
@@ -27,7 +29,13 @@ module.exports = {
 
       backgroundImage: {
         'banner': "url('/images/BG.png')",
-      }
+      },
+
+      FontFamily: { 
+        'main': ['lobster', 'san serif'],
+        'second': ['Montserrat', 'san serif'],
+        
+        },
 
     },
   },
